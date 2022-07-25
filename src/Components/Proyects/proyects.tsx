@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import style from './experience.module.css';
 import { array } from '../../data/exp';
 const Proyects = () => {

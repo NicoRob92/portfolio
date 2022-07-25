@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from './home.module.css';
 import Presentation from '../../Components/Presentation/presentation';
 import Proyects from '../../Components/Proyects/proyects';
