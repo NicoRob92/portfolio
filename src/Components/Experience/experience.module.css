@@ -1,0 +1,42 @@
+.container {
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;  
+  background-color: rgba(0,0,0, 0.3);
+
+}
+
+.exp{
+  width: 80%;
+  height: 80vh;
+  backdrop-filter: blur(8px);
+  outline:1px solid wheat;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp h2,
+.exp h3{
+  color: white;
+  text-shadow: 0 0 1px #000, 0 0 5px #000, 0 0 10px #000, 0 0 15px #000;
+  font-family: 'Koulen', cursive;
+  width: 90%;
+  margin: .7%;
+}
+
+.exp h3{
+  font-weight: 400;
+}
+
+.exp p{
+  width: 87%;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 1.2rem;
+  margin:0;
+}

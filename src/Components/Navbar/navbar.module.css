@@ -1,0 +1,36 @@
+.anchors{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 6vh;  
+  bottom: 0px;
+  
+}
+.anchors a {
+  text-decoration: none;
+  color: rgb(199, 192, 192);
+  outline: 1px solid;
+  border-radius: 2px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition: 0.5s ease-in-out;
+  justify-self: flex-start;
+  align-self: flex-start;
+  height: 80%;
+  margin:0.3%;
+}
+
+.anchors a:hover {
+  transition: 0.5s ease-in-out;
+  background-color: rgba(182, 183, 189, 0.64);
+}
+
+.anchors a:active {
+  transition: 0.5s ease-in-out;
+  background-color: rgba(3, 19, 109, 0.64);
+}

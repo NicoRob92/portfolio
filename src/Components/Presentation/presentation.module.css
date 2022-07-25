@@ -1,0 +1,76 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+ 
+}
+.presentation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0,0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: 5%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  text-shadow: 0 0 1px #000, 0 0 5px #000, 0 0 10px #000, 0 0 15px #000;
+  font-weight: 400;
+}
+
+.box p {
+  font-size: 1.8rem;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-weight: 400;
+  text-shadow: 0 0 1px #000, 0 0 5px #000, 0 0 10px #000, 0 0 15px #000;
+}
+
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 1px #fff, 0 0 5px #000, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 20px #228dff, 0 0 30px #228dff, 0 0 50px #228dff, 0 0 50px #228dff;
+  }
+  30% {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 15px #228dff, 0 0 20px #228dff, 0 0 30px #228dff, 0 0 55px #228dff;
+  }
+  50% {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 15px #228dff, 0 0 20px #228dff, 0 0 30px #228dff, 0 0 55px #228dff;
+  }
+  70% {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 15px #228dff, 0 0 20px #228dff, 0 0 30px #228dff, 0 0 55px #228dff;
+  }
+  100% {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 15px #228dff, 0 0 20px #228dff, 0 0 30px #228dff, 0 0 55px #228dff;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 5px #000, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 20px #228dff, 0 0 30px #228dff, 0 0 50px #228dff, 0 0 50px #228dff;
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #228dff,
+      0 0 15px #228dff, 0 0 20px #228dff, 0 0 30px #228dff, 0 0 55px #228dff;
+  }
+}

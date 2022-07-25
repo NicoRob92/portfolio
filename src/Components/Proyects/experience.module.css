@@ -1,0 +1,133 @@
+.container {
+  scroll-behavior: smooth;
+}
+.container1 {
+  display: flex;
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+.experience {
+  width: 100vw;
+  scroll-behavior: smooth;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.experience h1 {
+  width: 90%;
+  font-family: 'Koulen', cursive;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 1px #000, 0 0 5px #000, 0 0 10px #000, 0 0 15px #000;
+
+}
+
+.slider {
+  width: 90vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.slider button {
+  background-color: transparent;
+  border: none;
+}
+
+.slider svg {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.slider svg:hover {
+  transition: 0.4s;
+  transform: scale(1.1, 1.1);
+}
+.images {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.images img {
+  width: 95%;
+  height: 80%;
+  outline: 2px solid wheat;
+  border-radius: 4px;
+}
+
+.buttons {
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.dc {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.descriptionContainer {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+}
+.description {
+  min-height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  text-shadow: 0 0 1px #000, 0 0 5px #000, 0 0 10px #000, 0 0 15px #000;
+}
+
+.description h1,
+.description h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Koulen', cursive;
+  width: 100%;
+  margin: 0;
+}
+
+.description p {
+  max-height: 50%;
+  width: 100%;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 1.5rem;
+}
+
+.description a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5%;
+  transition: 0.5s ease-in-out;
+  font-weight: 700;
+}
+
+.anchors {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
