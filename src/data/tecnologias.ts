@@ -38,7 +38,7 @@ export const techs = [
   },
   {
     name: 'Sequelize',
-    image: 'http://assets.stickpng.com/images/58482ee4cef1014c0b5e4a75.png',
+    image: './images/logos/sequelize.png',
     color: '#03AFEF',
   },
   {
